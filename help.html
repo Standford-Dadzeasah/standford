@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>help</title>
+    <style>
+        h1{
+            text-align: center;
+            font-weight: bold;
+
+        }
+        p{
+            text-align: center;
+            font-size: 20px;
+        }
+        .suggestion form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.suggestion form input:first-child{
+    display: inline-block;
+    width: 200%;
+    padding: 13px 130px 14px 15px;
+    border: 2px solid pink;
+    outline: none;
+    border-radius: 30px;
+    height: 200px;
+    margin-left: 250px;
+}
+.suggestion form input:last-child{
+    position: absolute;
+    display: inline-block;
+    outline: none;
+    border: none;
+    padding: 10px 30px;
+    border-radius: 30px;
+    background-color: #4200f9;
+    color: white;
+    box-shadow: 0px 0px 5px #000, 0px 0px 15px #858585;
+    top: 6px;
+    right: 6px;
+    margin-top: 250px;
+    margin-right: -350px;
+    display: flex;
+}
+    </style>
+</head>
+<body style="background: pink;">
+    <div>
+        <h1>EMERGENCY!!</h1>
+        <p>I'm here to help! Could you please provide more details about what you need assistance?</p>
+        <div class="suggestion">
+            <form>
+                <input type="suggestion box" name="suggestion" id="suggestion" placeholder="how can i help you?">
+                <input type="submit" name="submit" value="submit">
+            </form>
+
+        </div>
+    </div>
+</body>
+</html>
